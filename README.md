@@ -1,12 +1,10 @@
-# SSL-TLS-cryptographic-protocols-lb-using-nginx
-
-## SSL/TLS Cryptographic Protocol and Load Balancing Solution Using Nginx
+# SSL/TLS Cryptographic Protocol Solution and Load Balancing Using Nginx
 
 *Demonstration of how to install and configure an Nginx load balancer and a SSL/TLS digital certificate using HTTPS protocol for end-to-end security. Additionally, we will register a new DNS name. The source code used on this project was retrieved from darey.io.*
 
 - *This project is a continuation of project: "jenkins-continuous-integration-step3".*
 
-- *We will keep using "automation-using-continuous-integration-step3" EC2 instances to complete this project.*
+- *We will keep using "jenkins-continuous-integration-step3" EC2 instances to complete this project.*
 
 *Instructions on how to launch and connect to your EC2 instance using an SSH client:*
 
@@ -231,41 +229,56 @@ And add following line:
 You have just implemented an Nginx load balancing web solution using a secure HTTPS connection with periodically updated SSL/TLS certificates as well as applying a new DNS name for you website!
 
 ----------
-## Self-Side Study Information about This Project
+## Self-Side Study Information for This Project
 
-Information about how to refresh our cron configuration: 
+Information about how to refresh our cron configuration:
+
 https://www.youtube.com/watch?v=4g1i0ylvx3A
 
 Read more about HTTP load balancing methods and features supported by Nginx:
+
 https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/.
 
-Information about how to allocate an Elastic IP and associate it with an EC2 server: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html
+Information about how to allocate an Elastic IP and associate it with an EC2 server:
 
-Information about how to update a record in our registrar to point to Nginx LB using an Elastic IP address: https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html
+
+Information about how to update a record in our registrar to point to Nginx LB using an Elastic IP address: 
+
+https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/
 
 Information about how to associate our domain name to our Elastic IP:
+
 https://medium.com/progress-on-ios-development/connecting-an-ec2-instance-with-a-godaddy-domain-e74ff190c233
 
 Information about different DNS record types and learn what they are used for:
+
 https://www.cloudflare.com/learning/dns/dns-records/
 
 *Information about data encryption in transit:*
+
 https://security.berkeley.edu/data-encryption-transit-guideline
 
 *Information about public key certificates:*
+
 https://en.wikipedia.org/wiki/Public_key_certificate
 
-*Information about different types of SSL/TLS certificates:* 
+*Information about different types of SSL/TLS certificates:*
+
 https://blog.hubspot.com/marketing/what-is-ssl
 
 *Tutorial on how SSL/TLS works*: 
+
 https://blog.hubspot.com/marketing/what-is-ssl
 
 *Additional SSL/TLS resource:* 
+
 https://blog.hubspot.com/marketing/what-is-ssl
 
 LetEncrypt website:
+
 https://letsencrypt.org/
 
 Shell client recommended by shell encrypt:
+
 https://certbot.eff.org/
