@@ -1,4 +1,4 @@
-# SSL/TLS Cryptographic Protocol Solution and Load Balancing Using Nginx
+## SSL/TLS Cryptographic Protocol Solution and Load Balancing Using Nginx
 
 *Demonstration of how to install and configure an Nginx load balancer and a SSL/TLS digital certificate using HTTPS protocol for end-to-end security. Additionally, we will register a new DNS name. The source code used on this project was retrieved from darey.io.*
 
@@ -22,7 +22,7 @@ https://github.com/Antonio447-cloud/MEAN-stack-angular
 
 **NOTE**: *The HTTPS protocol and the SSL/TLS digital certificate will identify, validate and provide end-to-end encryption to our DevOps tooling website.*
 
-## SSL/TLS Encryption Protocol and Nginx Load Balancing
+## SSL/TLS Cryptographic Protocol and Nginx Load Balancing
 
 When data is moving between a web client (browser) and a web server over the internet, it passes through multiple network devices and, if the data is not encrypted, it can be relatively easy intercepted by someone who has access to intermediate equipment. This kind of information security threat is called Man-in-the-Middle (MITM) attack so:
 
@@ -53,7 +53,7 @@ create an EC2 instance based on Ubuntu Server 20.04 and name it "Nginx-LB".
 
 After connecting to our Nginx-LB instance and configuring its security groups as mentioned above, we register a new DNS name on "Route 53" on AWS. To do that we type "Route 53" on the AWS search bar:
 
-![search](./images/aws-search-bar.png)
+![search](./images/aws-search-bar2.png)
 
 Then we click on "Hosted zones":
 
