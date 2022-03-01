@@ -53,7 +53,7 @@ create an EC2 instance based on Ubuntu Server 20.04 and name it "Nginx-LB".
 
 After connecting to our Nginx-LB instance and configuring its security groups as mentioned above, we register a new DNS name on "Route 53" on AWS. To do that we type "Route 53" on the AWS search bar:
 
-![search](./images/aws-search-bar4.png)
+![search](./images/aws-search-bar7.png)
 
 Then we click on "Hosted zones":
 
@@ -247,11 +247,11 @@ Information about how to update a record in our registrar to point to Nginx LB u
 
 https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/
 
-Information about how to associate our domain name to our Elastic IP:
+*Information about how to associate our domain name to our Elastic IP:*
 
 https://medium.com/progress-on-ios-development/connecting-an-ec2-instance-with-a-godaddy-domain-e74ff190c233
 
-Information about different DNS record types and learn what they are used for:
+*Information about different DNS record types and learn what they are used for:*
 
 https://www.cloudflare.com/learning/dns/dns-records/
 
