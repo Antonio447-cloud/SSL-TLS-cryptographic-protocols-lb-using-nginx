@@ -1,6 +1,8 @@
 # SSL/TLS Cryptographic Protocol Solution and Load Balancing Using Nginx
 
-*Demonstration of how to install and configure an Nginx load balancer and a SSL/TLS digital certificate using HTTPS protocol for end-to-end security. Additionally, we will register a new DNS name. The source code used on this project was retrieved from darey.io. This project is a continuation of project:* 
+*Demonstration of how to install and configure an Nginx load balancer and a SSL/TLS digital certificate using HTTPS protocol for end-to-end security. Additionally, we will register a new DNS name. The source code used on this project was retrieved from darey.io.* 
+
+- *This project is a continuation of project:* 
 
 https://github.com/Antonio447-cloud/jenkins-continuous-integration-step3
 
@@ -49,7 +51,7 @@ create an EC2 instance based on Ubuntu Server 20.04 and name it "Nginx-LB".
 
 After connecting to our Nginx-LB instance and configuring its security groups as mentioned above, we register a new DNS name on "Route 53" on AWS. To do that we type "Route 53" on the AWS search bar:
 
-![search](./images/aws-search-bar7.png)
+![search](./images/aws-search-bar77.png)
 
 Then we click on "Hosted zones":
 
