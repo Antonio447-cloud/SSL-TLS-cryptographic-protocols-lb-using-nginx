@@ -229,39 +229,39 @@ Congrats!! You have just implemented an Nginx load balancing web solution using 
 ----------
 ## Self-Side Study Information for This Project
 
-Information about how to refresh our cron configuration:
+*Refreshing cron configuration:*
 
 https://www.youtube.com/watch?v=4g1i0ylvx3A
 
-Read more about HTTP load balancing methods and features supported by Nginx:
+*HTTP load balancing methods and features supported by Nginx:*
 
 https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/.
 
-Information about how to allocate an Elastic IP and associate it with an EC2 server:
+*Allocating an Elastic IP and associate it with an EC2 server:*
 
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html
 
-Information about how to update a record in our registrar to point to Nginx LB using an Elastic IP address: 
+*Updating a record in our registrar to point to Nginx LB using an Elastic IP address:*
 
 https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/
 
-*Information about how to associate our domain name to our Elastic IP:*
+*Associating a domain name to an Elastic IP:*
 
 https://medium.com/progress-on-ios-development/connecting-an-ec2-instance-with-a-godaddy-domain-e74ff190c233
 
-*Information about different DNS record types and learn what they are used for:*
+*DNS record types:*
 
 https://www.cloudflare.com/learning/dns/dns-records/
 
-*Information about data encryption in transit:*
+*Data encryption in transit:*
 
 https://security.berkeley.edu/data-encryption-transit-guideline
 
-*Information about public key certificates:*
+*Public key certificates:*
 
 https://en.wikipedia.org/wiki/Public_key_certificate
 
-*Information about different types of SSL/TLS certificates:*
+*Different types of SSL/TLS certificates:*
 
 https://blog.hubspot.com/marketing/what-is-ssl
 
@@ -273,10 +273,10 @@ https://blog.hubspot.com/marketing/what-is-ssl
 
 https://blog.hubspot.com/marketing/what-is-ssl
 
-LetEncrypt website:
+*LetEncrypt website:*
 
 https://letsencrypt.org/
 
-Shell client recommended by shell encrypt:
+*Shell client recommended by shell encrypt:*
 
 https://certbot.eff.org/
