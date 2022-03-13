@@ -224,7 +224,7 @@ And add following line:
 
 ![https](./images/https-browser.png)
 
-You have just implemented an Nginx load balancing web solution using a secure HTTPS connection with periodically updated SSL/TLS certificates as well as applying a new DNS name for you website!
+Congrats!! You have just implemented an Nginx load balancing web solution using a secure HTTPS connection with periodically updated SSL/TLS certificates as well as applying a new DNS name for you website!
 
 ----------
 ## Self-Side Study Information for This Project
