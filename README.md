@@ -4,9 +4,9 @@
 
 - *This project is a continuation of project:* 
 
-https://github.com/Antonio447-cloud/jenkins-continuous-integration-step3
+https://github.com/Antonio447-cloud/jenkins-continuous-integration-project3
 
-- *We will keep using "jenkins-continuous-integration-step3" EC2 instances to complete this project.*
+- *We will keep using "jenkins-continuous-integration-project3" EC2 instances to complete this project.*
 -----------
     Happy learning!
 
@@ -85,7 +85,7 @@ The we run:
 
 `sudo systemctl status nginx`
 
-We update the /etc/hosts file for local DNS using the web servers’ internal DNS names (Web1 and Web2) that we configured into our LB server on project: "load-balancer-solution-with-apache-step2" with their respective private IP addresses:
+We update the /etc/hosts file for local DNS using the web servers’ internal DNS names (Web1 and Web2) that we configured into our LB server on project: "load-balancer-solution-with-apache-project2" with their respective private IP addresses:
 
 `sudo vi /etc/hosts`
 
@@ -132,7 +132,7 @@ After verifying the output, we restart Nginx and verify that it is running:
 
 ## Checking the Web Servers Tooling Repository
 
-Now we need to  SSH into our web server 1 instance. Once we have done so, we need to confirm that the "tooling" directory is on the web server. We deployed the tooling directory into our web server 1 on project: "devops-website-solution-with-nfs-lvm-step1". To verify if it the tooling directory is on the web server we run:
+Now we need to  SSH into our web server 1 instance. Once we have done so, we need to confirm that the "tooling" directory is on the web server. We deployed the tooling directory into our web server 1 on project: "devops-website-solution-with-nfs-lvm-project1". To verify if it the tooling directory is on the web server we run:
 
 `ls -l`
 
@@ -174,7 +174,7 @@ Then we restart the web server and verify that it is up and running:
 
 `sudo systemctl status httpd`
 
-- We repeat the steps on the "Checking the Web Servers Tooling Repository" section for web server 2.
+- We repeat the steps listed on the heading: **"Checking the Web Servers Tooling Repository"** for web server 2.
 
 ## Registering a New Domain Name and Configuring Secured Connections Using SSL/TLS Certificates
 
