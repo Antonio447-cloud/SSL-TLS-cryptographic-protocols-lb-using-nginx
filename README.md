@@ -222,6 +222,8 @@ And add following line:
 
 - **NOTE**: *We can always change the interval of this cronjob.*
 
+The output of our website should look like this:
+
 ![https](./images/https-browser.png)
 
 Congrats!! You have just implemented an Nginx load balancing web solution using a secure HTTPS connection with periodically updated SSL/TLS certificates as well as applying a new DNS name for you website!
