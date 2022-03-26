@@ -222,7 +222,7 @@ And add following line:
 
 - **NOTE**: *We can always change the interval of this cronjob.*
 
-The output of our website should look like this:
+- *The output should look like this:*
 
 ![https](./images/https-browser.png)
 
