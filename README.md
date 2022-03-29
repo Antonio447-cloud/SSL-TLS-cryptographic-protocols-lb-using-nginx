@@ -38,7 +38,7 @@ SSL (Secure Socket Layer) and its newer version, TLS (Transport Layer Security) 
 
 Our target architecture looks like this:
 
-![IT](./images/IT-infrastructure.png)
+![IT](./images/IT-infrastructure2.png)
 
 ## Configuring Nginx as a Load Balancer and Registering a New DNS Name
 
