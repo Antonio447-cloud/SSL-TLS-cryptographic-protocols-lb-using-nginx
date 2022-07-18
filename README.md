@@ -38,7 +38,7 @@ SSL (Secure Socket Layer) and its newer version, TLS (Transport Layer Security) 
 
 Our target architecture looks like this:
 
-![IT](./images/IT-infrastructure2.png)
+![IT](./images/IT-infrastructure4.png)
 
 ## Configuring Nginx as a Load Balancer and Registering a New DNS Name
 
@@ -226,7 +226,7 @@ And add following line:
 
 ![https](./images/https-browser.png)
 
-Congrats!! You have just implemented an Nginx load balancing web solution using a secure HTTPS connection with periodically updated SSL/TLS certificates as well as creating a new DNS record using AWS Route 53 for your website!
+We have just implemented an Nginx load balancing web solution using a secure HTTPS connection with periodically updated SSL/TLS certificates as well as creating a new DNS record using AWS Route 53 for our website!
 
 ----------
 ## Self-Side Study Information for This Project
