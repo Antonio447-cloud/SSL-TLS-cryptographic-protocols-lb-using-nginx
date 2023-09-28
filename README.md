@@ -12,11 +12,11 @@ https://github.com/Antonio447-cloud/jenkins-continuous-integration-project3
 
 ## Outline
 
-- Apply HTTPS protocol and create an SSL/TLS digital for our DevOps tooling website. 
+- Create an SSL/TLS digital certificate by applying HTTPS protocol for our DevOps tooling website. 
 
 - Register a new DNS name.
 
-- Implement an Nginx load balancing solution.
+- Implement an Nginx load balancing solution for our DevOps tooling website.
 
 **NOTE**: *The HTTPS protocol and the SSL/TLS digital certificate will identify, validate and provide end-to-end encryption to our DevOps tooling website.*
 
