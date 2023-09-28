@@ -1,6 +1,6 @@
 # SSL/TLS Cryptographic Protocol Solution and Load Balancing Using Nginx
 
-*Demonstration of how to install and configure an Nginx load balancer and an SSL/TLS digital certificate using HTTPS protocol for end-to-end security. Additionally, we will register a new DNS name.* 
+*Demonstration of how to install an Nginx load balancer server and configure an SSL/TLS digital certificate using HTTPS protocol for end-to-end security. Additionally, we will register a new DNS name.* 
 
 - *This project is a continuation of project:* 
 
