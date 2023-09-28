@@ -18,8 +18,6 @@ https://github.com/Antonio447-cloud/jenkins-continuous-integration-project3
 
 - Implement an Nginx load balancing solution to distribute network traffic efficiently between our DevOps tooling website's servers.
 
-**NOTE**: *The HTTPS protocol and the SSL/TLS digital certificate will identify, validate and provide end-to-end encryption between web clients and servers of our DevOps tooling website.*
-
 **NOTE**: *Load balancers act as reverse proxies and they can also be configured to block many common DDoS attacks, such as SYN floods or UDP reflection attacks that could possibly affect our DevOps tooling website.*
 
 ## SSL/TLS Cryptographic Protocol and Nginx Load Balancing
