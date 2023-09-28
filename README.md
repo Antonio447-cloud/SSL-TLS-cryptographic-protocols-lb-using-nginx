@@ -12,7 +12,7 @@ https://github.com/Antonio447-cloud/jenkins-continuous-integration-project3
 
 ## Outline
 
-- Create an SSL/TLS digital certificate by implementing HTTPS protocol to the Nginx load balancer for end-to-end encryption between web clients and servers. 
+- Implement HTTPS protocol by configuring SSL/TLS end-to-end encryption on our load balancer server. The SSL/TLS configuration will provide end-to-end encryption between our website's users and our servers.
 
 - Register a new DNS name.
 
