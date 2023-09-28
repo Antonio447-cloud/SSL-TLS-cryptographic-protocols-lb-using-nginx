@@ -132,7 +132,7 @@ After verifying the output, we restart Nginx and verify that it is running:
 
 ## Checking the Web Servers Tooling Repository
 
-Now we need to  SSH into our web server 1 instance. Once we have done so, we need to confirm that the "tooling" directory is on the web server. We deployed the tooling directory into our web server 1 on project: "devops-website-solution-with-nfs-lvm-project1". To verify if it the tooling directory is on the web server we run:
+Now we need to  SSH into our web server 1 instance. Once we have done so, we need to confirm that the "tooling" directory is on the web server. We deployed the tooling directory into our web server 1 on project: "devops-website-solution-with-nfs-lvm-project1". To verify if the tooling directory is on the web server we run:
 
 `ls -l`
 
