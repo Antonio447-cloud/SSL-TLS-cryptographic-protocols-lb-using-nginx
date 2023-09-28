@@ -12,7 +12,7 @@ https://github.com/Antonio447-cloud/jenkins-continuous-integration-project3
 
 ## Outline
 
-- Implement HTTPS protocol by configuring SSL/TLS end-to-end encryption on our load balancer server. The SSL/TLS configuration will provide end-to-end encryption between our website's users and our servers.
+- Implement HTTPS protocol by configuring our load balancer server to use SSL/TLS cryptographic protocol when sending and receiving data packets over the network. This SSL/TLS configuration will provide end-to-end encryption between our website's users and our servers.
 
 - Register a new DNS name.
 
