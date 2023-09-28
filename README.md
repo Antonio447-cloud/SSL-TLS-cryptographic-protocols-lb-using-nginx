@@ -130,7 +130,7 @@ After verifying the output, we restart Nginx and verify that it is running:
 
 ![status](./images/status-nginx.png)
 
-## Checking the Web Servers Tooling Repository
+## Deploying the Tooling Repository to our 2 Web Servers
 
 Now we need to  SSH into our web server 1 instance. Once we have done so, we need to confirm that the "tooling" directory is on the web server. We deployed the tooling directory into our web server 1 on project: "devops-website-solution-with-nfs-lvm-project1". To verify if the tooling directory is on the web server we run:
 
@@ -174,7 +174,7 @@ Then we restart the web server and verify that it is up and running:
 
 `sudo systemctl status httpd`
 
-- We repeat the steps listed on the heading: **"Checking the Web Servers Tooling Repository"** for web server 2.
+- We repeat the steps listed on the heading: **"Deploying the Tooling Repository to our 2 Web Servers"** for web server 2.
 
 ## Registering a New Domain Name and Configuring Secured Connections Using SSL/TLS Certificates
 
