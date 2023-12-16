@@ -228,6 +228,13 @@ And add following line:
 
 We have just implemented an Nginx load balancing web solution using a secure HTTPS connection with periodically updated SSL/TLS certificates as well as creating a new DNS record using AWS Route 53 for our website!
 
+---------
+## Legal Disclaimer
+
+The use of code contained in this repository, either in part or in its totality, for engaging targets without prior mutual consent is illegal. It is the end-user's responsibility to obey all applicable local, state and federal laws.
+
+The use of this code is only endorsed by the developers in those circumstances directly related to educational environments or authorized penetration testing engagements whose declared purpose is that of finding and mitigating vulnerabilities in systems, limiting their exposure to compromises and exploits employed by malicious agents as defined in their respective threat models.
+
 ----------
 ## Self-Side Study Information for This Project
 
